@@ -1,29 +1,28 @@
 # Welcomes the user
 # Gives the user options
 
-# loop to make testing/trialling easier and
-# more efficient
+import easygui
+
 while True:
-    print("Welcome!")
-    choices = input("Choose an option from below: \n"
-                    "1. Add Cards\n"
-                    "2. Search for Cards\n"
-                    "3. Delete Cards\n"
-                    "4. Print All Cards \n"
-                    "5. Exit\n\n"
-                    "Enter choice: ")
 
-    if choices == "1":
-        print("Add Cards action succeeded")
+    easygui.msgbox("Welcome to this site", "Welcome")
 
-    elif choices == "2":
-        print("Change Search for Cards action succeeded")
+    menu = easygui.buttonbox("Choose an option from below: ", "Menu",
+                             choices=["Add Cards", "Search for Cards",
+                                      "Delete Cards", "Print All Cards",
+                                      "Exit"])
 
-    elif choices == "3":
-        print("Delete Cards action succeeded")
+    if menu == "Add Cards":
+        easygui.msgbox("Add Cards action succeeded")
 
-    elif choices == "4":
-        print("Print All Cards action succeeded")
+    elif menu == "Search for Cards":
+        easygui.msgbox("Change Search for Cards action succeeded")
 
-    elif choices == "5":
+    elif menu == "Delete Cards":
+        easygui.msgbox("Delete Cards action succeeded")
+
+    elif menu == "Print All Cards":
+        easygui.msgbox("Print All Cards action succeeded")
+
+    elif menu == "Exit":
         break
