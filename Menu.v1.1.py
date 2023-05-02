@@ -5,7 +5,7 @@ import easygui
 
 while True:
 
-    easygui.msgbox("Welcome to this site", "Welcome")
+    easygui.msgbox("Welcome to the Monster Card Storage Facility", "Welcome")
 
     menu = easygui.buttonbox("Choose an option from below: ", "Menu",
                              choices=["Add Cards", "Search for Cards",
