@@ -9,11 +9,12 @@ choices = input("Choose an option from below: \n"
                 "5. Exit\n\n"
                 "Enter choice: ")
 
+# If user chooses {} action, go to {}
 if choices == "1":
     print("Add Cards action succeeded")
 
 elif choices == "2":
-    print("Change Search for Cards action succeeded")
+    print("Search for Cards action succeeded")
 
 elif choices == "3":
     print("Delete Cards action succeeded")
