@@ -1,6 +1,5 @@
-"""Add card v1.0
-The add component of the assessment
-Uses generic and boring print statements
+"""Add card v1.1
+Replaces print statements with easygui
 By J.VDC"""
 
 # Asking user to enter monster card name
