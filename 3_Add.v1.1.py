@@ -2,8 +2,10 @@
 Replaces print statements with easygui
 By J.VDC"""
 
+import easygui
+
 # Asking user to enter monster card name
-card_name = input("Please enter the name of the card: ").title()
+card_name = easygui.enterbox("Please enter the name of the card: ").title()
 
 # Asks user to enter the card statistics consisting of
 # Strength, Speed, Stealth, Cunning

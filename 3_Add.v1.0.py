@@ -1,6 +1,8 @@
 """Add card v1.0
 The add component of the assessment
 Uses generic and boring print statements
+[ Be glad I'm not lazy enough to put this into
+the final program ;) ]
 By J.VDC"""
 
 # Asking user to enter monster card name
