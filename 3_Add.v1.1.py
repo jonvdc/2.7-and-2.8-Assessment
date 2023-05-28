@@ -1,3 +1,7 @@
+"""Add card v1.1
+Makes use a loop to make code shorter
+-J.VDC"""
+
 statistics = ["Strength", "Speed", "Stealth", "Cunning"]
 card_storage = {}
 
