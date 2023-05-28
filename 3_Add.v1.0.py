@@ -3,7 +3,7 @@ The add component of the assessment
 Uses generic and boring print statements
 [ Be glad I'm not lazy enough to put this into
 the final program ;) ]
-By J.VDC"""
+-J.VDC"""
 
 # Asking user to enter monster card name
 card_name = input("Please enter the name of the card: ").title()
